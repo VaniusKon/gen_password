@@ -7,7 +7,7 @@ root["bg"] = "LightBlue"
 import random
 from random import randrange
 
-ex = ''
+ex = None
 password = Label(text='Пароль: ' + ex, bg='LightBlue')
 password.grid(row=0, column=0)
 inp=Text(root, bg='LightBlue')
